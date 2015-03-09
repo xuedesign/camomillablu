@@ -1,0 +1,203 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Date: 2015/03
+
+***********************************************************************************************
+		1 通用
+		2.基本架構
+		   2-1.頁首
+		   2-2.頁尾
+		   2-3.主體框架
+		3.頁面架構
+		   3-1.首頁
+		   3-2.品牌簡介
+		   3-3.商品專區
+		   3-4.聯絡我們		
+***********************************************************************************************/
+
+/* 1. 通用 
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+body{
+	background: url(../images/bg_site.png);
+	font-family: "微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:22px;
+	color:#505050}
+a:link {text-decoration:underline; color:#5e97e3}
+a:visited {text-decoration:underline; color:#8c8c8c}
+a:hover {text-decoration:none; color:#F50}
+form{margin:0; padding:0}
+image{border:0}
+.clean{ clear:both}
+.hidden{ display:none}
+
+/* 2. 基本架構  
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+#wrap{ 
+   display:block; 
+   position:relative; 
+   width:1160px; 
+   margin:55px auto; 
+   background:#FFF;
+   -webkit-box-shadow: 1px 1px 5px #d2d1d1;
+   -moz-box-shadow: 1px 1px 5px #d2d1d1;
+   box-shadow: 1px 1px 5px #d2d1d1}
+h1 a{
+   display:block;
+   position:absolute;
+   top:-55px;
+   left:37px;
+   z-index:99;
+   width:152px;
+   height:189px;
+   background:url(../images/bg_h1.png) no-repeat;
+   text-indent:-9999px}
+
+/*2-1.頁首*/
+header{
+	display:block;
+	width:636px;
+	margin:0 auto;
+	padding:24px 0 19px 0;
+	padding-left:478px;}
+nav, #subnav{ display:block; float:left}
+nav ul{ width:480px; padding-top:4px}
+nav li a{
+	display: block;
+	float:left;
+	width:120px;
+	height:27px;
+	background:url(../images/btn_nav.png) no-repeat;
+	text-indent:-9999px}
+.nav-01{ background-position: 0 0}
+.nav-01:hover{ background-position: 0 -27px}
+.nav-02{ background-position: -120px 0}
+.nav-02:hover{background-position: -120px -27px}
+.nav-03{ background-position: -240px 0}
+.nav-03:hover{ background-position: -240px -27px}
+.nav-04{ background-position: -360px 0}
+.nav-04:hover{ background-position: -360px -27px}	
+
+#subnav ul{ width:156px}
+#subnav li a{
+	display:block;
+	float:left;
+	width:36px;
+	height:35px;
+	background:url(../images/btn_subnav.png) no-repeat;
+	text-indent:-9999px;
+	margin-left:16px}
+#subnav .subnav-01{ background-position: 0 0}
+#subnav .subnav-01:hover{ background-position: 0 -35px}
+#subnav .subnav-02{ background-position: -36px 0}
+#subnav .subnav-02:hover{background-position: -36px -35px}
+#subnav .subnav-03{ background-position: -72px 0}
+#subnav .subnav-03:hover{ background-position: -72px -35px}		
+
+/*2-2.頁尾*/
+footer{
+	display: block;
+	height:36px;
+	background:#e1e1e1;
+	text-align:center;
+	padding-top:14px}
+footer p{
+	font-size:.813em;
+	color:#404040;
+	text-shadow:1px 1px 0 #E9E8E8}
+footer a:link,footer a:visited{ color:#404040; text-decoration:none}		
+
+/*2-3.主體框架*/
+
+/*2-4 返回頂端鈕*/
+#toTop{
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	overflow:hidden;
+	width:51px;
+	height:51px;
+	border:none;
+	text-indent:-999px;
+	background:url(../images/ui.totop.png) no-repeat left top}
+#toTopHover{
+	background:url(../images/ui.totop.png) no-repeat left -51px;
+	width:51px;
+	height:51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0)}
+#toTop:active, #toTop:focus { outline:none}
+
+/* 3.頁面架構  
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+/*3-1.首頁*/
+#banner_slider{
+	display:block;
+	width:1114px;
+	height:590px;
+	margin:0 auto 30px auto}
+#box_index{
+	display:block;
+	width:1074px;
+	margin:0 auto}
+.box_author, .box_hotsale, .fb-like-box{ display:block; float:left}	
+.box_author{
+	width:121px;
+	min-height:568px;
+	margin-right:21px;
+	padding:0 9px;
+	background:#5e97e3}
+.box_author h3{
+	display:block;
+	width:105px;
+	height:42px;
+	background:url(../images/title_author.png) no-repeat;
+	text-indent:-9999px;
+	margin:25px 0}	
+.box_author p{
+	font-size:.813em;
+	line-height:25px;
+	color:#FFF}
+.box_author a:link{
+	display:block;
+	width:121px;
+	height:57px;
+	background:url(../images/btn_author.png) no-repeat;
+	text-indent:-9999px;
+	margin-top:35px}
+.box_author a:hover{ background-position:0 -57px}		
+.box_hotsale{
+	width:606px;
+	margin-right:28px;
+	padding-top:20px}
+.box_hotsale h3{
+	display:block;
+	width:606px;
+	font-size:1em;
+	line-height:32px;
+	color:#4082dc;
+	background:#f0f0f0;
+	letter-spacing:2px;
+	text-shadow:1px 1px 0 #f5f5f5}
+.box_hotsale h3 span{
+	display:block;
+	float:left;
+	width:11px;
+	height:32px;
+	background:#5e97e3;
+	margin-right:18px}				
+/*3-2.品牌簡介*/
+/*3-3.商品專區*/
+/*3-4.聯絡我們*/	
+
