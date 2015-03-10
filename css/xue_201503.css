@@ -196,7 +196,61 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	width:11px;
 	height:32px;
 	background:#5e97e3;
-	margin-right:18px}				
+	margin-right:18px}
+.box_hotsale ul{ display:block; margin-top:40px}
+.box_hotsale li{
+	display:block;
+	float:left;
+	width:180px;
+	margin:0 11px}
+.box_hotsale img{
+	display:block;
+	max-width:180px;
+	max-height:231px}	
+.box_hotsale h4{
+	display:block;
+	font-size:1em;
+	line-height:24px;
+	color:#214591;
+	text-align:center;
+	height:50px;
+	overflow:hidden;
+	margin-bottom:10px}
+.box_hotsale p{
+	display:block;
+	height:96px;
+	overflow:hidden;
+	font-size:.875em;
+	line-height:24px;
+	padding:0 10px;}
+.box_hotsale a:link, .box_hotsale a:visited{
+	display:block;
+	width:120px;
+	font-size:.813em;
+	line-height:30px;
+	color: #FFF;
+	text-align:center;
+	letter-spacing:1px;
+	background: -webkit-gradient(linear, left top, right top, from(#6098e3), to(#3a7ddb));
+	background: -webkit-linear-gradient(top, #6098e3, #3a7ddb);
+	background: -moz-linear-gradient(top, #6098e3, #3a7ddb);
+	background: -o-linear-gradient(top, #6098e3, #3a7ddb);
+	background: -ms-linear-gradient(top, #6098e3, #3a7ddb);
+	background: linear-gradient(top, #6098e3, #3a7ddb);
+	background-color: #6098e3;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	text-decoration:none;
+	margin:15px auto 0 auto}
+.box_hotsale a:hover{
+	background: -webkit-gradient(linear, left top, right top, from(#3a7ddb), to(#6098e3));
+	background: -webkit-linear-gradient(top, #3a7ddb, #6098e3);
+	background: -moz-linear-gradient(top, #3a7ddb, #6098e3);
+	background: -o-linear-gradient(top, #3a7ddb, #6098e3);
+	background: -ms-linear-gradient(top, #3a7ddb, #6098e3);
+	background: linear-gradient(top, #3a7ddb, #6098e3);
+	background-color: #3a7ddb}						
 /*3-2.品牌簡介*/
 /*3-3.商品專區*/
 /*3-4.聯絡我們*/	
