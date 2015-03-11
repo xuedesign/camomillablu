@@ -74,13 +74,13 @@ nav li a{
 	background:url(../images/btn_nav.png) no-repeat;
 	text-indent:-9999px}
 .nav-01{ background-position: 0 0}
-.nav-01:hover{ background-position: 0 -27px}
+.nav-01:hover, .nav-01.navin{ background-position: 0 -27px}
 .nav-02{ background-position: -120px 0}
-.nav-02:hover{background-position: -120px -27px}
+.nav-02:hover, .nav-02.navin{background-position: -120px -27px}
 .nav-03{ background-position: -240px 0}
 .nav-03:hover{ background-position: -240px -27px}
 .nav-04{ background-position: -360px 0}
-.nav-04:hover{ background-position: -360px -27px}	
+.nav-04:hover, .nav-04.navin{ background-position: -360px -27px}	
 
 #subnav ul{ width:156px}
 #subnav li a{
@@ -112,6 +112,49 @@ footer p{
 footer a:link,footer a:visited{ color:#404040; text-decoration:none}		
 
 /*2-3.主體框架*/
+#page_banner{ position:relative; height:149px; margin:0 auto}
+.section-01{ background:url(../images/pic_pbanner-01.jpg) no-repeat}
+.section-02{ background:url(../images/pic_pbanner-02.jpg) no-repeat}
+.section-03{ background:url(../images/pic_pbanner-03.jpg) no-repeat}
+#page_banner h2{
+	display:block;
+	position:absolute;
+	bottom:0;
+	left:21px;
+	background: url(../images/bg_ph2.png) no-repeat;
+	width:139px;
+	height:64px;
+	text-indent:-9999px}
+.ptitle-01{ background-position:0 0}
+.ptitle-02{ background-position:0 -64px}
+.ptitle-03{ background-position:0 -128px}
+#containter{
+	display:block;
+	width:1114px;
+	margin:0 auto;
+	background: url(../images/bg_containter.png) repeat-y}
+#submenu, #page_main{ display:block; float:left}	
+#submenu{
+	width:140px;
+	min-height:500px;
+	background:url(../images/bg_aside.png) 0 137px no-repeat;
+	margin:0 43px 0 21px}
+#submenu ul{}
+#submenu li a:link, #submenu li a:visited{
+	display:block;
+	width:100px;
+	padding:10px;
+	margin:0 10px;
+	font-size:1em;
+	line-height:35px;
+	color:#FFF;
+	letter-spacing:1px;
+	border-bottom:1px dashed #FFF;
+	text-decoration:none}	
+#submenu li a:hover{ font-size:1.063em; color:#f5fe06; text-decoration:none}
+#page_main{width:910px; padding:20px 0 30px 0}
+#page_main h3{ font-size:1.25em; line-height:28px; color:#5e97e3; padding-bottom:8px}
+#page_main p{ font-size:.938em; line-height:25px}		
 
 /*2-4 返回頂端鈕*/
 #toTop{
@@ -142,11 +185,8 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 -----------------------------------------------------------------------------------------------
 ===============================================================================================*/
 /*3-1.首頁*/
-#banner_slider{
-	display:block;
-	width:1114px;
-	height:590px;
-	margin:0 auto 30px auto}
+#banner_slider, #page_banner{ display:block; width:1114px}
+#banner_slider{height:590px; margin:0 auto 30px auto}	
 #box_index{
 	display:block;
 	width:1074px;
@@ -251,7 +291,57 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	background: -ms-linear-gradient(top, #3a7ddb, #6098e3);
 	background: linear-gradient(top, #3a7ddb, #6098e3);
 	background-color: #3a7ddb}						
+
 /*3-2.品牌簡介*/
+.bar_tool{ display:block; width:910px}
+.bar_cookie, .fb-like{ display:block; float:right}
+.bar_cookie{ margin:0 20px 25px 0; padding-top:2px; font-size:.813em; color:#747474}
+.bar_cookie span{
+	font-weight:bold;
+	background:url(../images/pot_boxblue.png) 0 2px no-repeat;
+	padding-left:10px;}
+.fb-like{ padding-right:7px}
+.brand_note{
+	display:block;
+	position:relative;
+	background:url(../images/bg_brand-note.jpg) no-repeat;
+	width:910px;
+	height:148px;
+	margin-bottom:30px}
+.brand_note h3, .brand_note p{ display:none}
+.brand_note .medal{ 
+    display:block;
+	position:absolute;
+	top:-25px;
+	left:-30px;
+	width:131px;
+	height:89px;
+	background:url(../images/pic_medal.png) no-repeat}
+.box_muti{ display:block; margin-bottom:30px}
+.box_muti p{ padding:0 24px}
+.box_film li{
+	display:block;
+	position:relative;
+	float:left;
+	width:269px;
+	height:124px;
+	margin:30px 17px}
+.cut-01, .cut-02, .cut-03{ background: url(../images/pic_filmcut.jpg) no-repeat}
+.cut-01{ background-position:0 0}
+.cut-02{ background-position:0 -124px}
+.cut-03{ background-position:0 -248px}
+.box_film a{
+	display:block;
+	position:absolute;
+	top:11px;
+	left:83px;
+	width:102px;
+	height:102px;
+	background:url(../images/btn_play.png) no-repeat;
+	text-indent:-9999px}
+.box_film a:hover{ background:url(../images/btn_play.png) 0 -102px no-repeat;}
+
 /*3-3.商品專區*/
+
 /*3-4.聯絡我們*/	
 
