@@ -18,7 +18,7 @@
 <file name="pic_hotsale-02.jpg" server="173.254.238.219//httpdocs/" local="130704372937191058" remote="130704383400000000" Dst="0" />
 <file name="bg_containter.png" server="173.254.238.219//httpdocs/" local="130705357731637806" remote="130705397400000000" Dst="0" />
 <file name="bg_aside.png" server="173.254.238.219//httpdocs/" local="130705340124130715" remote="130705397400000000" Dst="0" />
-<file name="bg_ph2.png" server="173.254.238.219//httpdocs/" local="130705340101539423" remote="130705397400000000" Dst="0" />
+<file name="bg_ph2.png" server="173.254.238.219//httpdocs/" local="130706185891651896" remote="130706304600000000" Dst="0" />
 <file name="pot_boxblue.png" server="173.254.238.219//httpdocs/" local="130705380480558970" remote="130705397400000000" Dst="0" />
 <file name="bg_brand-note.jpg" server="173.254.238.219//httpdocs/" local="130705385393509975" remote="130705397400000000" Dst="0" />
 <file name="pic_pbanner-01.jpg" server="173.254.238.219//httpdocs/" local="130705300878876015" remote="130705397400000000" Dst="0" />
@@ -31,4 +31,23 @@
 <file name="fancybox_sprite@2x.png" server="173.254.238.219//httpdocs/" local="130156207480000000" remote="130705563600000000" Dst="0" />
 <file name="pic_medal.png" server="173.254.238.219//httpdocs/" local="130705492699655771" remote="130705563600000000" Dst="0" />
 <file name="pic_filmcut.jpg" server="173.254.238.219//httpdocs/" local="130705526178550655" remote="130705563600000000" Dst="0" />
+<file name="bg_products.png" server="173.254.238.219//httpdocs/" local="130706267078025491" remote="130706304600000000" Dst="0" />
+<file name="bg_shoptitle.png" server="173.254.238.219//httpdocs/" local="130706275813795148" remote="130706304600000000" Dst="0" />
+<file name="pic_produce-s01.png" server="173.254.238.219//httpdocs/" local="130706286956302463" remote="130706305200000000" Dst="0" />
+<file name="pic_pbanner-02.jpg" server="173.254.238.219//httpdocs/" local="130706187041567667" remote="130706305200000000" Dst="0" />
+<file name="pic_pbanner-03.jpg" server="173.254.238.219//httpdocs/" local="130706187261300235" remote="130706305200000000" Dst="0" />
+<file name="pic_produce-s02.png" server="173.254.238.219//httpdocs/" local="130706299986117726" remote="130706305200000000" Dst="0" />
+<file name="pic_produce-s04.png" server="173.254.238.219//httpdocs/" local="130706300090793713" remote="130706305200000000" Dst="0" />
+<file name="pic_produce-s03.png" server="173.254.238.219//httpdocs/" local="130706300048361286" remote="130706305200000000" Dst="0" />
+<file name="pic_produce-s05.png" server="173.254.238.219//httpdocs/" local="130706300142406665" remote="130706305200000000" Dst="0" />
+<file name="pic_produce-s07.png" server="173.254.238.219//httpdocs/" local="130706300241722345" remote="130706305200000000" Dst="0" />
+<file name="pic_produce-s06.png" server="173.254.238.219//httpdocs/" local="130706300197089793" remote="130706305200000000" Dst="0" />
+<file name="pic_produce-s08.png" server="173.254.238.219//httpdocs/" local="130706300292565254" remote="130706305200000000" Dst="0" />
+<file name="pic_produce-s10.png" server="173.254.238.219//httpdocs/" local="130706300374449937" remote="130706305200000000" Dst="0" />
+<file name="pic_produce-s09.png" server="173.254.238.219//httpdocs/" local="130706300334237637" remote="130706305200000000" Dst="0" />
+<file name="pic_produce-s11.png" server="173.254.238.219//httpdocs/" local="130706300423332733" remote="130706305200000000" Dst="0" />
+<file name="pic_produce-s13.png" server="173.254.238.219//httpdocs/" local="130706300514267934" remote="130706305200000000" Dst="0" />
+<file name="pic_produce-s12.png" server="173.254.238.219//httpdocs/" local="130706300469175355" remote="130706305200000000" Dst="0" />
+<file name="pic_produce-s14.png" server="173.254.238.219//httpdocs/" local="130706300556480349" remote="130706305200000000" Dst="0" />
+<file name="pic_CAM301.jpg" server="173.254.238.219//httpdocs/" local="130706445602661423" remote="130706473800000000" Dst="0" />
 </dwsync>

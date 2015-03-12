@@ -344,6 +344,7 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 /*3-3.商品專區*/
 #box_shop{
 	display:block;
+	position: relative;
 	width:906px;
 	margin:0 auto}
 #box_shop h3{
@@ -391,7 +392,76 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	top:2px;
 	left:15px;
 	width:148px;
-	height:210px;}
-
+	height:210px}
+.price{
+	display:block;
+	position:absolute;
+	top:10px;
+	right:15px;
+	font-size:1.125em;
+	color:#fe8258;
+	font-weight:bold}	
+#part_product{ display:block; width:900px; margin:0 auto}
+.p_cover{ display:block; float:left; width:300px; padding-left:50px}
+.p_cover img{ display:block; width:280px; border:1px solid #E8E8E8; margin-bottom:15px}
+.p_info{ display:block; float:right; width:500px; padding:0 25px}
+.p_info	h4{ font-size:1.125em; color:#3a7ddb; line-height:35px}
+.p_info ul{ padding:0 25px 35px}
+.p_info li{
+	list-style: disc;
+	font-size:0.875em;
+	line-height:22px;
+	margin-left:15px;
+	padding:8px;
+	border-bottom:1px dashed #CCC}
+.box_btn{ display:block; width:300px; padding-left:50px}
+.box_btn a{
+	display: inline-block;
+	width:120px;
+	font-size:.873em;
+	line-height:35px;
+	text-align:center;
+	letter-spacing:1px;
+	text-decoration:none;
+	text-shadow:0 0 5px #999;
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+	margin:0 10px}
+.box_btn .btn_back{
+	color:#FFF;
+	background: -webkit-gradient(linear, left top, right top, from(#6098e3), to(#3a7ddb));
+	background: -webkit-linear-gradient(top, #6098e3, #3a7ddb);
+	background: -moz-linear-gradient(top, #6098e3, #3a7ddb);
+	background: -o-linear-gradient(top, #6098e3, #3a7ddb);
+	background: -ms-linear-gradient(top, #6098e3, #3a7ddb);
+	background: linear-gradient(top, #6098e3, #3a7ddb);
+	background-color: #6098e3}
+.box_btn .btn_back:hover{
+	color:#FFF;
+	background: -webkit-gradient(linear, left top, right top, from(#3a7ddb), to(#6098e3));
+	background: -webkit-linear-gradient(top, #3a7ddb, #6098e3);
+	background: -moz-linear-gradient(top, #3a7ddb, #6098e3);
+	background: -o-linear-gradient(top, #3a7ddb, #6098e3);
+	background: -ms-linear-gradient(top, #3a7ddb, #6098e3);
+	background: linear-gradient(top, #3a7ddb, #6098e3);
+	background-color: #3a7ddb}		
+.box_btn .btn_buy{
+	color:#FFF;
+	background: -webkit-gradient(linear, left top, right top, from(#FBAC91), to(#fe8258));
+    background: -webkit-linear-gradient(top, #FBAC91, #fe8258);
+	background: -moz-linear-gradient(top, #FBAC91, #fe8258);
+	background: -o-linear-gradient(top, #FBAC91, #fe8258);
+	background: -ms-linear-gradient(top, #FBAC91, #fe8258);
+	background: linear-gradient(top, #FBAC91, #fe8258);
+	background-color: #FBAC91}
+.box_btn .btn_buy:hover{
+	background: -webkit-gradient(linear, left top, right top, from(#fe8258), to(#FBAC91));
+	background: -webkit-linear-gradient(top, #fe8258, #FBAC91);
+	background: -moz-linear-gradient(top, #fe8258, #FBAC91);
+	background: -o-linear-gradient(top, #fe8258, #FBAC91);
+	background: -ms-linear-gradient(top, #fe8258, #FBAC91);
+	background: linear-gradient(top, #fe8258, #FBAC91);
+	background-color: #fe8258}	
 /*3-4.聯絡我們*/	
 
