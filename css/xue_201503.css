@@ -125,9 +125,9 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	width:139px;
 	height:64px;
 	text-indent:-9999px}
-.ptitle-01{ background-position:0 0}
-.ptitle-02{ background-position:0 -64px}
-.ptitle-03{ background-position:0 -128px}
+#page_banner .ptitle-01{ background-position:0 0}
+#page_banner .ptitle-02{ background-position:0 -64px}
+#page_banner .ptitle-03{ background-position:0 -128px}
 #containter{
 	display:block;
 	width:1114px;
@@ -142,11 +142,11 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 #submenu ul{}
 #submenu li a:link, #submenu li a:visited{
 	display:block;
-	width:100px;
-	padding:10px;
-	margin:0 10px;
+	width:110px;
+	padding:10px 5px;
+	margin:15px 10px;
 	font-size:1em;
-	line-height:35px;
+	line-height:22px;
 	color:#FFF;
 	letter-spacing:1px;
 	border-bottom:1px dashed #FFF;
@@ -342,6 +342,56 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 .box_film a:hover{ background:url(../images/btn_play.png) 0 -102px no-repeat;}
 
 /*3-3.商品專區*/
+#box_shop{
+	display:block;
+	width:906px;
+	margin:0 auto}
+#box_shop h3{
+	display:block;
+	width:910px;
+	height:50px;
+	background:url(../images/bg_shoptitle.png) 0 20px no-repeat;
+	font-size:1.25em;
+	line-height:35px;
+	letter-spacing:1px;
+	padding-left:55px;
+	margin-bottom:30px}
+.box_productslist{ padding-bottom:50px}	
+.box_productslist li a{
+	display:block;
+	float:left;
+	position:relative;
+	width:278px;
+	height:215px;
+	margin:0 12px 50px 12px;
+	overflow:hidden;
+	background:url(../images/bg_products.png) no-repeat}
+.box_productslist li a:hover{background:url(../images/bg_products.png) 0 -215px no-repeat}
+.box_productslist h5{
+	display:block;
+	position:absolute;
+	right:10px;
+	bottom:45px;
+	z-index:99;
+	text-align:right;
+	font-size:.938em;
+	line-height:22px;
+	color:#3a7ddb}
+.box_productslist p{
+	display:block;
+	position:absolute;
+	right:10px;
+	bottom:10px;
+	text-align:right;
+	font-size:.938em;
+	color:#fe8258}	
+.box_productslist img{
+	display:block;
+	position:absolute;
+	top:2px;
+	left:15px;
+	width:148px;
+	height:210px;}
 
 /*3-4.聯絡我們*/	
 
