@@ -136,10 +136,9 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 #submenu, #page_main{ display:block; float:left}	
 #submenu{
 	width:140px;
-	min-height:500px;
+	min-height:400px;
 	background:url(../images/bg_aside.png) 0 137px no-repeat;
 	margin:0 43px 0 21px}
-#submenu ul{}
 #submenu li a:link, #submenu li a:visited{
 	display:block;
 	width:110px;
@@ -340,17 +339,31 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	background:url(../images/btn_play.png) no-repeat;
 	text-indent:-9999px}
 .box_film a:hover{ background:url(../images/btn_play.png) 0 -102px no-repeat}
-.box_photo{
+.box_photo, .box_report{
 	display:block;
 	width:900px;
 	margin:15px auto}
-.box_photo li{
+.box_photo li, .box_report li{
 	display: inline-block;
 	width:100px;
-	height:100px;
 	margin:0 15px;
-	padding:5px;
-	border:1px solid #EBEBEB}
+	padding:5px}	
+.box_photo li{ height:100px; border:1px solid #EBEBEB}
+.box_report li{
+	display: inline-block;
+	height:90px;
+	background:url(../images/bg_report.png) no-repeat}	
+.box_report li:hover{ background:url(../images/bg_report.png) 0 -100px no-repeat}
+.box_report h5{
+	display:block;
+	width:70px;
+	height:60px;
+	margin:0 auto;
+	padding-top:40px;
+	font-size:.813em; 
+	line-height:15px; 
+	color:#FFF; 
+	text-align:center}		
 
 /*3-3.商品專區*/
 #box_shop{
@@ -425,6 +438,7 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	margin-left:15px;
 	padding:8px;
 	border-bottom:1px dashed #CCC}
+.p_info a{ text-decoration:none}	
 .box_btn{ display:block; width:300px; padding-left:50px}
 .box_btn a{
 	display: inline-block;
@@ -474,5 +488,27 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	background: -ms-linear-gradient(top, #fe8258, #FBAC91);
 	background: linear-gradient(top, #fe8258, #FBAC91);
 	background-color: #fe8258}	
-/*3-4.聯絡我們*/	
 
+/*3-4.聯絡我們*/	
+.box_contact{ 
+    display:block; 
+	position:relative; 
+	width:820px;
+	min-height:350px;
+	margin:0 auto;
+	padding-left:80px}
+.box_contact ul{}
+.box_contact li{
+	font-size:.938em;
+	line-height:35px;
+	padding:5px 25px;
+	margin-right:100px;
+	border-bottom:1px dashed #C9C9C9}	
+.bg_meadow{
+	display:block;
+	position:absolute;
+	bottom:-30px;
+	left:0;
+	width:900px;
+	height:170px;
+	background:url(../images/bg_contact.jpg) no-repeat}	
