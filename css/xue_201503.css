@@ -339,7 +339,7 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	background:url(../images/btn_play.png) no-repeat;
 	text-indent:-9999px}
 .box_film a:hover{ background:url(../images/btn_play.png) 0 -102px no-repeat}
-.box_photo, .box_report{
+.box_photo, .box_report, .box_components{
 	display:block;
 	width:900px;
 	margin:15px auto}
@@ -347,7 +347,25 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	display: inline-block;
 	width:100px;
 	margin:0 15px;
-	padding:5px}	
+	padding:5px}
+.box_components li{
+	display: inline-block;
+	width:154px;
+	height:150px;
+	margin:0 32px}
+.box_components li span{
+	display:block;
+	width:150px;
+	height:120px;
+	border:2px solid #5e97e3;
+	-webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px}
+.box_components .cc-01{ background:url(../images/bg_cc-01.jpg)}
+.box_components .cc-02{ background:url(../images/bg_cc-02.jpg)}
+.box_components .cc-03{ background:url(../images/bg_cc-03.jpg)}
+.box_components .cc-04{ background:url(../images/bg_cc-04.jpg)}	
+.box_components li p{ text-align:center; padding-top:5px}				
 .box_photo li{ height:100px; border:1px solid #EBEBEB}
 .box_report li{
 	display: inline-block;
