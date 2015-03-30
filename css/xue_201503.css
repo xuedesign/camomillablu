@@ -190,7 +190,7 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	display:block;
 	width:1074px;
 	margin:0 auto}
-.box_author, .box_hotsale, .fb-like-box{ display:block; float:left}	
+.box_author, .box_hotsale, .fb-like-box, .fb-page{ display:block; float:left}	
 .box_author{
 	width:121px;
 	min-height:568px;
