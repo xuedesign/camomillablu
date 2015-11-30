@@ -141,8 +141,8 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	margin:0 43px 0 21px}
 #submenu li a:link, #submenu li a:visited{
 	display:block;
-	width:110px;
-	padding:10px 5px;
+	width:91px;
+	padding:10px 15px;
 	margin:15px 10px;
 	font-size:1em;
 	line-height:22px;
@@ -197,7 +197,7 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	min-height:568px;
 	margin-right:21px;
 	padding:0 9px;
-	background:#5e97e3}
+	background:#67a5fa}
 .box_author h3{
 	display:block;
 	width:105px;
@@ -344,16 +344,16 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	display:block;
 	width:900px;
 	margin:15px auto}
-.box_photo li, .box_report li{
+.box_photo li{
 	display: inline-block;
 	width:100px;
-	margin:0 15px;
+	margin:0 10px 25px;
 	padding:5px}
 .box_components li{
 	display: inline-block;
 	width:154px;
 	height:150px;
-	margin:0 32px}
+	margin:0 0 0 17px}
 .box_components li span{
 	display:block;
 	width:150px;
@@ -365,12 +365,16 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 .box_components .cc-01{ background:url(../images/bg_cc-01.jpg)}
 .box_components .cc-02{ background:url(../images/bg_cc-02.jpg)}
 .box_components .cc-03{ background:url(../images/bg_cc-03.jpg)}
-.box_components .cc-04{ background:url(../images/bg_cc-04.jpg)}	
+.box_components .cc-04{ background:url(../images/bg_cc-04.jpg)}
+.box_components .cc-05{ background:url(../images/bg_cc-05.jpg)}	
 .box_components li p{ text-align:center; padding-top:5px}				
 .box_photo li{ height:100px; border:1px solid #EBEBEB}
 .box_report li{
 	display: inline-block;
-	height:90px;
+	margin:10px;
+	padding-top:5px;
+	width:100px;
+	height:95px;
 	background:url(../images/bg_report.png) no-repeat}	
 .box_report li:hover{ background:url(../images/bg_report.png) 0 -100px no-repeat}
 .box_report h5{
@@ -397,7 +401,6 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	background:url(../images/bg_shoptitle.png) 0 20px no-repeat;
 	font-size:1.25em;
 	line-height:35px;
-	letter-spacing:1px;
 	padding-left:55px;
 	margin-bottom:30px}
 .box_productslist{ padding-bottom:50px}	
