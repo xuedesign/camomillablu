@@ -60,10 +60,9 @@ h1 a{
 /*2-1.頁首*/
 header{
 	display:block;
-	width:636px;
+	width:584px;
 	margin:0 auto;
-	padding:24px 0 19px 0;
-	padding-left:478px;}
+	padding:24px 0 19px 530px}
 nav, #subnav{ display:block; float:left}
 nav ul{ width:480px; padding-top:4px}
 nav li a{
@@ -82,7 +81,7 @@ nav li a{
 .nav-04{ background-position: -360px 0}
 .nav-04:hover, .nav-04.navin{ background-position: -360px -27px}	
 
-#subnav ul{ width:156px}
+#subnav ul{ width:104px}
 #subnav li a{
 	display:block;
 	float:left;
@@ -402,7 +401,8 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	font-size:1.25em;
 	line-height:35px;
 	padding-left:55px;
-	margin-bottom:30px}
+    /*margin-bottom:30px*/
+	margin-top:70px}
 .box_productslist{ padding-bottom:50px}	
 .box_productslist li a{
 	display:block;
@@ -410,7 +410,7 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	position:relative;
 	width:278px;
 	height:215px;
-	margin:0 12px 50px 12px;
+	margin:0 12px;
 	overflow:hidden;
 	background:url(../images/bg_products.png) no-repeat}
 .box_productslist li a:hover{background:url(../images/bg_products.png) 0 -215px no-repeat}
