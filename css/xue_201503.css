@@ -2,7 +2,7 @@
 
 	Title: CSS for xuedeisgn
 	Author: Elmo Wu (by xuedesign studio)
-	Date: 2015/03
+	Date: 2017/07
 
 ***********************************************************************************************
 		1 通用
@@ -14,7 +14,8 @@
 		   3-1.首頁
 		   3-2.品牌簡介
 		   3-3.商品專區
-		   3-4.聯絡我們		
+		   3-4.聯絡我們
+        4.測試站標籤
 ***********************************************************************************************/
 
 /* 1. 通用 
@@ -534,3 +535,37 @@ footer a:link,footer a:visited{ color:#404040; text-decoration:none}
 	width:900px;
 	height:170px;
 	background:url(../images/bg_contact.jpg) no-repeat}	
+
+/*
+=====================================
+測試站標籤
+=====================================
+*/
+#myTag{
+    position: fixed;
+    top: -150px;
+    right: 0;
+    z-index: 990;
+    border-color: transparent;
+    border-left-color: RGBA(66,142,245,.6);
+    border-style: solid solid solid solid;
+    border-width: 50px;
+    height: 300px;
+    width: 50px;
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg)
+    /*-webkit-box-shadow: 5px 5px 20px #8e8e8e;
+    -moz-box-shadow: 5px 5px 20px #8e8e8e;
+    box-shadow: 5px 5px 20px #8e8e8e;*/
+}
+#myTag p{
+    position: absolute;
+    top: 140px;
+    right: 38px;
+    font-size: 1em;
+    color: #fff;
+    line-height: 22px;
+    text-align: center;
+    transform: rotate(91deg);
+    -ms-transform: rotate(45deg)
+}
